@@ -1,0 +1,9 @@
+Angular Getting Started:
+PluralSight
+by: Scott Allen
+
+This course demonstrates how to use the essential abstractions of AngularJS,
+including modules, controllers, directives, and services.
+
+Different folders "x..." are created to correspond with the different steps
+taken as the project gets more complex and have more features.

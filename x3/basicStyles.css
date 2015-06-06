@@ -1,0 +1,66 @@
+h1 {
+    font-family: "Helvetica Neue", "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-weight: 300;
+    color: #c53929;
+    letter-spacing: .025em;
+}
+
+p {
+    font-family: "Helvetica Neue", Source Sans Pro, sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 10px;
+    letter-spacing: .055em;
+    color: #666666;
+
+}
+
+.container-fluid {
+    height: auto;
+    margin: 20px 20px 10px 20px;
+    padding-bottom: 100px;
+    background-color: #eee;
+    border: solid 1px #aaa;
+    border-radius: 10px;
+}
+
+.container {
+    height: auto;
+    /*padding: 10px;*/
+    background-color: #eee;
+    border: solid 1px #aaa;
+    border-radius: 10px;
+}
+
+img {
+    width: 20%;
+}
+
+.frameBox {
+    border: solid 1px #888;
+    padding: 10px;
+}
+
+table {
+    width: 600px;
+    border: solid 1px #9e9e9e;
+    padding: 0;
+}
+
+.markerIndicator {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #8d6e63;
+}
+
+.dropDownBtn {
+    height: 30px;
+    width: 200px;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #CCCCCC;
+    background-color: #df8505;
+}

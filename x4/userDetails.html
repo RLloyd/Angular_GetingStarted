@@ -1,0 +1,45 @@
+<div>
+  <!--Left Column-->
+  <div class = "frameBox col-sm-6">
+    <div class = "markerIndicator">LEFT COLUMN</div>
+    <h1>{{user.login}}</h1>
+
+    <p>GitHub Address: {{user.html_url}}</p>
+
+    <!--Inside Left Column-->
+    <div class = "frameBox col-sm-6">
+      <div class = "markerIndicator">INSIDE LEFT COLUMN</div>
+      <img ng-src = "{{user.avatar_url}}" title = "{{user.name}}"/>
+    </div>
+
+    <!--Inside Right Column-->
+    <div class = "markerIndicator">INSIDE RIGHT COLUMN</div>
+    <div class = "frameBox col-sm-6">
+      <img ng-src = "{{user.avatar_url}}" title = "{{user.name}}"/>
+    </div>
+
+    <hr/>
+
+    <img ng-src = "{{user.avatar_url}}" title = "{{user.name}}"/>
+    <br/>
+    <hr/>
+    <p>
+      {{shortBlurb}}
+    </p>
+  </div>
+
+  <!--Right Column-->
+  <div class = "col-sm-6">
+    <div class = "markerIndicator">RIGHT COLUMN</div>
+    <h1>{{user.name}}</h1>
+
+    <div>
+      Location: {{user.location}}
+    </div>
+    <hr/>
+    <img ng-src = "{{user.avatar_url}}" title = "{{user.name}}"/>
+    <br/>
+  </div>
+
+</div>
+

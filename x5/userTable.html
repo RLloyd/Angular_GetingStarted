@@ -1,0 +1,25 @@
+<div class = "selectOrder">
+  Order:
+  <select class = "dropDownBtn" ng-model = "repoSortOrder">
+    <option value = "+name">Name</option>
+    <option value = "-stargazers_count">Stars</option>
+    <option value = "+language">Language</option>
+  </select>
+  <table class = "table table-striped table-hover">
+</div>
+
+<thead>
+<tr class = "success">
+  <th>Name</th>
+  <th>Star</th>
+  <th>Language</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat = "repo in repos | orderBy:repoSortOrder"> <!--hardcoding filter: inside quote '-stargazers_count' -->
+  <td>{{repo.name}}</td>
+  <td>{{repo.stargazers_count | number}}</td>
+  <td>{{repo.language}}</td>
+</tr>
+</tbody>
+</table>
